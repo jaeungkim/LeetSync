@@ -21,7 +21,7 @@ var inorderTraversal = function(root) {
             current = current.left;
         }
         
-        console.log(stack);
+        // console.log(stack);
         current = stack.pop();
         result.push(current.val);
         current = current.right;
